@@ -1,11 +1,11 @@
+import { Rocket } from "lucide-react";
 import React from "react";
-import { FaRocket } from "react-icons/fa";
 
 const ComingSoon = () => {
 	return (
 		<div className="bg-gradient-to-r my-10 from-purple-600 to-indigo-600 min-h-screen flex items-center justify-center px-4">
 			<div className="max-w-4xl mx-auto text-center">
-				<FaRocket className="text-white text-6xl mb-8 mx-auto" />
+				<Rocket className="text-white text-6xl mb-8 mx-auto" />
 				<h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4">
 					Exciting Features Coming Soon!
 				</h1>
